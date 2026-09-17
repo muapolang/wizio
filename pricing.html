@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pricing — Wizio</title>
+<meta name="theme-color" content="#0B0D12">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<noscript><style>.reveal{opacity:1 !important;transform:none !important;}</style></noscript>
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <a href="index.html" class="logo" aria-label="Wizio home">
+      <svg class="mark" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="26" height="26" rx="7" fill="#6C5CE0"/>
+        <path d="M7.3 9L9.6 17.5L12.5 11.8L15.4 17.5L17.7 9" stroke="#EFF1EC" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      Wizio
+    </a>
+    <div class="nav-links">
+      <a href="index.html#loop">How it works</a>
+      <a href="index.html#capabilities">Product</a>
+      <a href="index.html#solutions">Solutions</a>
+      <a href="index.html#security">Security</a>
+      <a href="pricing.html" style="color:var(--paper);">Pricing</a>
+    </div>
+    <div class="nav-cta">
+      <a href="#" class="btn btn-primary btn-sm" data-modal="demo">Talk to Sales</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <!-- PRICING HERO -->
+  <section class="pricing-hero">
+    <div class="wrap">
+      <span class="eyebrow">Pricing</span>
+      <h1>Simple pricing for every stage of automation.</h1>
+      <p class="lede">Start free with one agent. Move to Team when you're ready to put agents into production. Talk to us when you need the whole company running on them.</p>
+
+      <div class="billing-toggle reveal">
+        <button type="button" data-cycle="monthly" class="active">Monthly</button>
+        <button type="button" data-cycle="annual">Annual</button>
+        <span class="save-tag">Save ~20% billed annually</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING CARDS -->
+  <section class="wrap">
+    <div class="pricing-grid reveal">
+
+      <div class="price-card">
+        <div class="plan-name">Starter</div>
+        <p class="plan-desc">For one team piloting its first agent.</p>
+        <div class="price-row">
+          <span class="price-amount">$0</span>
+          <span class="price-unit">/month</span>
+        </div>
+        <div class="price-note">Free forever — no credit card</div>
+        <a href="#" class="btn btn-outline" data-modal="start">Start for free</a>
+        <ul class="plan-features">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>1 active agent</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Full Observe → Plan → Act → Verify loop</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>250 agent runs / month</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>7-day audit log retention</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Community support</li>
+        </ul>
+      </div>
+
+      <div class="price-card featured">
+        <span class="ribbon">Most popular</span>
+        <div class="plan-name">Team</div>
+        <p class="plan-desc">For teams running agents on real, recurring work.</p>
+        <div class="price-row">
+          <span class="price-amount" data-monthly="$49" data-annual="$39">$49</span>
+          <span class="price-unit">/user /month</span>
+        </div>
+        <div class="price-note" data-note-monthly="Billed monthly" data-note-annual="Billed annually">Billed monthly</div>
+        <a href="#" class="btn btn-primary" data-modal="start">Start free trial</a>
+        <ul class="plan-features">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Up to 20 active agents</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Multi-agent orchestration</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Guardrails &amp; approval thresholds</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Human-in-the-loop via Slack &amp; email</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>90-day audit log retention</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Email &amp; chat support</li>
+        </ul>
+      </div>
+
+      <div class="price-card">
+        <div class="plan-name">Enterprise</div>
+        <p class="plan-desc">For companies running agents across every team.</p>
+        <div class="price-row">
+          <span class="price-amount">Custom</span>
+        </div>
+        <div class="price-note">Volume-based pricing</div>
+        <a href="#" class="btn btn-outline" data-modal="demo">Talk to sales</a>
+        <ul class="plan-features">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Unlimited active agents</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>SSO / SCIM</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Region-pinned data</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Custom audit log retention</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Dedicated success manager</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Custom SLA &amp; dedicated Slack channel</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- COMPARISON TABLE -->
+  <section class="compare">
+    <div class="wrap compare-inner">
+      <div class="section-head reveal">
+        <span class="eyebrow">Compare plans</span>
+        <h2>Every feature, side by side.</h2>
+      </div>
+
+      <div class="reveal" style="overflow-x:auto;">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>&nbsp;</th>
+            <th>Starter</th>
+            <th>Team</th>
+            <th>Enterprise</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="cat-row"><td colspan="4">Agents</td></tr>
+          <tr>
+            <td>Active agents</td>
+            <td class="cell-val">1</td>
+            <td class="cell-val">20</td>
+            <td class="cell-val">Unlimited</td>
+          </tr>
+          <tr>
+            <td>Agent runs / month</td>
+            <td class="cell-val">250</td>
+            <td class="cell-val">10,000</td>
+            <td class="cell-val">Custom</td>
+          </tr>
+
+          <tr class="cat-row"><td colspan="4">Capabilities</td></tr>
+          <tr>
+            <td>Tool use</td>
+            <td><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></td>
+            <td><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></td>
+            <td><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></td>
+          </tr>
+          <tr>
+            <td>Long-term memory</td>
+            <td class="dash">—</td>
+            <td><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></td>
+            <td><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></td>
+          </tr>
+          <tr>
+            <td>Guardrails</td>
+            <td class="dash">—</td>
+            <td><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></td>
+            <td><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></td>
+          </tr>
+          <tr>
+            <td>Multi-agent orchestration</td>
+            <td class="dash">—</td>
+            <td><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></td>
+            <td><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></td>
+          </tr>
+          <tr>
+            <td>Human-in-the-loop</td>
+            <td class="dash">—</td>
+            <td><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></td>
+            <td><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></td>
+          </tr>
+
+          <tr class="cat-row"><td colspan="4">Observability &amp; security</td></tr>
+          <tr>
+            <td>Audit log retention</td>
+            <td class="cell-val">7 days</td>
+            <td class="cell-val">90 days</td>
+            <td class="cell-val">Custom</td>
+          </tr>
+          <tr>
+            <td>SSO / SCIM</td>
+            <td class="dash">—</td>
+            <td class="dash">—</td>
+            <td><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></td>
+          </tr>
+          <tr>
+            <td>Region-pinned data</td>
+            <td class="dash">—</td>
+            <td class="dash">—</td>
+            <td><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></td>
+          </tr>
+          <tr>
+            <td>Dedicated success manager</td>
+            <td class="dash">—</td>
+            <td class="dash">—</td>
+            <td><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg></td>
+          </tr>
+
+          <tr class="cat-row"><td colspan="4">Support</td></tr>
+          <tr>
+            <td>Support level</td>
+            <td class="cell-val">Community</td>
+            <td class="cell-val">Email &amp; chat</td>
+            <td class="cell-val">Dedicated Slack + SLA</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <div class="wrap faq-inner">
+      <div class="section-head reveal">
+        <span class="eyebrow">Questions</span>
+        <h2>Pricing FAQ</h2>
+      </div>
+
+      <div class="faq-list reveal">
+        <details class="faq-item">
+          <summary>Is there a free trial for the Team plan?<span class="plus"></span></summary>
+          <p class="faq-answer">Yes — 14 days, no credit card required, with every Team feature unlocked. You can invite your whole team during the trial.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What counts as an agent run?<span class="plus"></span></summary>
+          <p class="faq-answer">One completed pass through the Observe → Plan → Act → Verify loop for a single task, regardless of how many tool calls it makes internally.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can I change plans later?<span class="plus"></span></summary>
+          <p class="faq-answer">Anytime. Upgrades apply immediately; downgrades take effect at the start of your next billing cycle. Nothing is locked in.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What happens if I go over my included agent runs?<span class="plus"></span></summary>
+          <p class="faq-answer">We'll notify you before you hit the limit. Additional runs are billed at a flat per-run rate — no surprise overage fees.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Do you offer discounts for startups or nonprofits?<span class="plus"></span></summary>
+          <p class="faq-answer">We do. Reach out through the contact form with a bit about your organization and we'll take a look.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="cta-inner reveal">
+      <h2>Still deciding? Start free and see it run.</h2>
+      <div class="cta-form">
+        <a href="#" class="btn btn-primary" data-modal="start">Start for free</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <svg class="mark" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="26" height="26" rx="7" fill="#6C5CE0"/>
+            <path d="M7.3 9L9.6 17.5L12.5 11.8L15.4 17.5L17.7 9" stroke="#EFF1EC" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Wizio
+        </a>
+        <p>The agent platform for teams who need the work actually finished, and proof that it was.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="index.html#loop">How it works</a></li>
+          <li><a href="index.html#capabilities">Capabilities</a></li>
+          <li><a href="index.html#security">Security</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Solutions</h4>
+        <ul>
+          <li><a href="index.html#solutions">Operations</a></li>
+          <li><a href="index.html#solutions">Support</a></li>
+          <li><a href="index.html#solutions">Finance</a></li>
+          <li><a href="index.html#solutions">Engineering</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="#" data-modal="contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Wizio Sdn. Bhd. All rights reserved.</span>
+      <span>Made for teams who finish things.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="modal-overlay" id="modal-overlay" aria-hidden="true">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-heading" id="modal">
+    <button class="modal-close" id="modal-close" aria-label="Close dialog">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<div class="toast-stack" id="toast-stack" aria-live="polite"></div>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
